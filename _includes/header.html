@@ -1,0 +1,29 @@
+<header class="site-header">
+
+  <div class="wrapper nav-wrapper">
+
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <div class="menu-button">
+          <span></span>
+        </div>
+      </a>
+    </nav>
+    <ul class="social-media-list">
+      {% if site.github_username %}
+      <li>
+        {% include icon-github.html username=site.github_username %}
+      </li>
+      {% endif %}
+
+      {% if site.twitter_username %}
+      <li>
+        {% include icon-twitter.html username=site.twitter_username %}
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+
+</header>
