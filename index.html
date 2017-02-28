@@ -36,4 +36,22 @@ layout: default
     {% endfor %}
   </div>
 
+  <ul class="post-list-feed">
+    {% for post in site.posts offset: 4 %}
+        <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="cover">
+              {% if post.cover %}<img src="{{post.cover}}">{% endif %}
+              <div class="cover-overlay">
+              </div>
+            </div>
+            <div class="details">
+                <div class="detail-title">{{ post.title }}</div>
+                <div class="detail-excerpt">{{ post.excerpt | truncatewords:30}}</div>
+            </div>
+          </a>
+        </li>
+    {% endfor %}
+  </ul>
+
 </div>
