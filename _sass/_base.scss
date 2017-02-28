@@ -190,6 +190,11 @@ pre {
             padding: 0 5px;
         }   
     }
+    @include media-query($on-palm) {
+        .social-media-list {
+            display: none;
+        }
+    }
 }
 
 /**
