@@ -346,6 +346,7 @@
         }
         .cover {
             width: 50%;
+            min-height: 200px;
             position: relative;
             background: linear-gradient(135deg,#50E3C2,#85BAFF);
             img {

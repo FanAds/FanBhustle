@@ -37,7 +37,7 @@ layout: default
   </div>
 
   <ul class="post-list-feed">
-    {% for post in site.posts offset: 4 %}
+    {% for post in site.posts  %}
         <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             <div class="cover">
