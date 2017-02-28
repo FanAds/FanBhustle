@@ -215,7 +215,14 @@
 /**
  * Page content
  */
-.page-content {
+
+.background-post {
+    background-color: white;
+    padding: $spacing-unit 0;
+}
+
+.background-feed {
+    background-color: $background-color;
     padding: $spacing-unit 0;
 }
 

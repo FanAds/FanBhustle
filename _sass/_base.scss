@@ -97,7 +97,7 @@ a {
     transition: .2s ease;
 
     &:hover {
-        color: #b8b8b8;
+        color: #828282;
         text-decoration: underline;
     }
 }
@@ -193,6 +193,12 @@ pre {
             display: none;
         }
     }
+}
+
+.post-wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 13));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 13));
+    margin: 0 auto;
 }
 
 /**
