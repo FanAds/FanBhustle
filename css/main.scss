@@ -12,10 +12,10 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     20px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #f7f7f7;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -24,10 +24,10 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $nav-width: 	   1050px;
 // Width of the content area
-$content-width:    950px;
+$content-width:    1000px;
 
 $on-palm:          600px;
-$on-laptop:        950px;
+$on-laptop:        1000px;
 
 
 
