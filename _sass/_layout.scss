@@ -413,6 +413,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    color: $text-color-light;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -421,6 +422,14 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    
+    img {
+        max-width: 100%;
+    }
+
+    p {
+        color: $text-color-light;
+    }
 
     h2 {
         font-size: 32px;
